@@ -32,9 +32,9 @@ console.log(selectedColors[1]);
 console.log(selectedColors.length);
 
 
-function greet() {
+function greet(name) {
     // Body of the function
-    console.log('Hello World');
+    console.log(name);
 }
 
-greet();
+greet('Sam');
