@@ -11,3 +11,4 @@ let person = {
 };
 
 console.log(person);
+typeof(person);
