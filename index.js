@@ -45,4 +45,6 @@ const square = (number) => {
 }
 
 greet('Sam', 'Townsend');
-square(2);
+let number = square(2);
+
+console.log(number);
