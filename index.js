@@ -34,7 +34,7 @@ console.log(selectedColors.length);
 
 function greet(name) {
     // Body of the function
-    console.log(name);
+    console.log(`Hello ${name}, how are you?`);
 }
 
 greet('Sam');
