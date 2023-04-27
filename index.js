@@ -29,3 +29,4 @@ console.log(selectedColors);
 
 // Using indexing to access array in JavaScript
 console.log(selectedColors[1]);
+console.log(selectedColors.length);
