@@ -30,3 +30,11 @@ console.log(selectedColors);
 // Using indexing to access array in JavaScript
 console.log(selectedColors[1]);
 console.log(selectedColors.length);
+
+
+function greet() {
+    // Body of the function
+    console.log('Hello World');
+}
+
+greet();
