@@ -10,5 +10,13 @@ let person = {
     age: 24
 };
 
+// Dot notation
+
+person.name = 'James';
+console.log(person.age);
+
+// Bracket Notation
+person['name'] = 'Mary';
+
 console.log(person);
 console.log(typeof(person));
