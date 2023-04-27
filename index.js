@@ -14,6 +14,7 @@ let person = {
 
 person.name = 'James';
 console.log(person.age);
+console.log(person.name);
 
 // Bracket Notation
 person['name'] = 'Mary';
