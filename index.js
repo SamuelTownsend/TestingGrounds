@@ -10,7 +10,7 @@ let person = {
     age: 24
 };
 
-// Dot notation
+// Dot notation (preferred choice for object notation)
 
 person.name = 'James';
 console.log(person.age);
@@ -21,3 +21,7 @@ person['name'] = 'Mary';
 
 console.log(person);
 console.log(typeof(person));
+
+
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors);
