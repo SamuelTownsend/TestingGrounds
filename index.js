@@ -25,3 +25,6 @@ console.log(typeof(person));
 
 let selectedColors = ['red', 'blue'];
 console.log(selectedColors);
+
+// Using indexing to access array in JavaScript
+console.log(selectedColors[1]);
