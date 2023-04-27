@@ -32,9 +32,17 @@ console.log(selectedColors[1]);
 console.log(selectedColors.length);
 
 
-function greet(firstName, lastName) {
+// Performing a task
+const greet = (firstName, lastName) => {
     // Body of the function
     console.log(`Hello ${firstName} ${lastName}, how are you?`);
 }
 
+// Function that calculates a value
+const square = (number) => {
+    return number * number;
+    
+}
+
 greet('Sam', 'Townsend');
+square(2);
