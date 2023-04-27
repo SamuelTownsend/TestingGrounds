@@ -48,3 +48,15 @@ greet('Sam', 'Townsend');
 let number = square(2);
 
 console.log(number);
+
+// OOP(OBJECT ORIENTED PROGRAMING)
+
+let baseSalary = 30_000;
+let overtime = 10;
+let rate = 20;
+
+const getWage = (baseSalary, overtime, rate) => {
+    return baseSalary + (overtime * rate);
+}
+
+console.log(getWage());
