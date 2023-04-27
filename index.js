@@ -11,4 +11,4 @@ let person = {
 };
 
 console.log(person);
-typeof(person);
+console.log(typeof(person));
